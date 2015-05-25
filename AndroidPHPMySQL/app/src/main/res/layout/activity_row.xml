@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="5sp"
+    android:paddingTop="5sp" >
+
+    <TextView
+        android:id="@+id/textView_rowNamaBarang"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="5sp" />
+
+    <TextView
+        android:id="@+id/textView_rowMerkBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_toRightOf="@+id/textView_rowNamaBarang"
+        android:padding="5sp"/>
+
+    <TextView
+        android:id="@+id/textView_rowHargaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_rowMerkBarang"
+        android:padding="5sp" />
+
+    <TextView
+        android:id="@+id/textView_rowIdBarang"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView_rowHargaBarang"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Database SQLite</string>
+    <string name="activity_tambah_data">Tambah Data</string>
+    <string name="activity_data_barang">Data Barang</string>
+    <string name="activity_ubah_data">Ubah Data</string>
+    <string name="tombol_tambah_data">Tambah Data</string>
+    <string name="tombol_data">Data Barang</string>
+    <string name="tombol_tambah">Tambah</string>
+    <string name="tombol_ubah">Ubah</string>
+    <string name="tombol_batal">Batal</string>
+    <string name="tombol_dialog_ubah">Ubah</string>
+    <string name="tombol_dialog_hapus">Hapus</string>
+    <string name="hint_nama">Nama Barang</string>
+    <string name="hint_merk">Merk Barang</string>
+    <string name="hint_harga">Harga Barang</string>
+    <string name="judul_data">Data Barang</string>
+    <string name="judul_ubah_data">Ubah Data | ID :</string>
+</resources>

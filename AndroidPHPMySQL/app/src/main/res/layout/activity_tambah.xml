@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/tambah_nama"
+        android:id="@+id/textView_namaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText_namaBarang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_namaBarang"
+        android:hint="@string/tambah_hint_nama" >
+    <requestFocus />
+    </EditText>
+
+    <TextView
+        android:text="@string/tambah_merk"
+        android:id="@+id/textView_merkBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText_merkBarang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_merkBarang"
+        android:hint="@string/tambah_hint_merk" >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:text="@string/tambah_harga"
+        android:id="@+id/textView_hargaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText_hargaBarang"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_hargaBarang"
+        android:hint="@string/tambah_hint_harga" >
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button_simpanBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_simpan" />
+
+</LinearLayout>

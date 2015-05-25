@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Android PHP MySQL</string>
+
+    <string name="hello_world">Android PHP MySQL</string>
+
+    <string name="tambah_nama">Nama Barang</string>
+    <string name="tambah_merk">Merk Barang</string>
+    <string name="tambah_harga">Harga Barang</string>
+    <string name="tambah_hint_nama">Input Nama Barang</string>
+    <string name="tambah_hint_merk">Input Merk Barang</string>
+    <string name="tambah_hint_harga">Input Harga Barang</string>
+    <string name="action_simpan">Simpan</string>
+
+    <string name="username">Username</string>
+    <string name="username_hint">Masukkan Username</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Masukkan Password</string>
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

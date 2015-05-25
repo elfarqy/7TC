@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/username"
+        android:id="@+id/textView_log_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText_log_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_log_username"
+        android:hint="@string/username_hint" />
+        <requestFocus />
+
+    <TextView
+        android:text="@string/password"
+        android:id="@+id/textView_log_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editText_log_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_log_password"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword" >
+        <requestFocus />
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_login" />
+
+    <Button
+        android:id="@+id/button_log_register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_register" />
+
+</LinearLayout>
